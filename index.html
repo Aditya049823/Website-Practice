@@ -12,9 +12,9 @@
                 <a class="bar" href="#register">Register</a>
             </div>
         </div>
-        <h2>Books</h2>
+        <h2 class="heading">Books</h2>
         <div class="book" id="book">
-            <table border="1px">
+            <table>
                 <thead>
                     <tr>
                     <th>BookId</th>
@@ -97,7 +97,7 @@
                 </tbody>
             </table>
         </div>
-        <h2>Register</h2>
+        <h2 class="heading">Register</h2>
         <div class="register" id="register">
             <form class="form1" action="#" method="post">
                 <div>
@@ -108,8 +108,10 @@
                     <label for="sname">Last Name</label><br>
                     <input type="text" name="sname" id="sname" placeholder="Sname" required>
                 </div>
+                <div>
                     <label for="email">Email</label><br>
                     <input type="email" name="email" id="email" required>
+                </div>
                 <div>
                     <label for="dob">Date Of Birth</label><br>
                     <input type="date" name="dob" id="dob" required>
@@ -128,7 +130,6 @@
                 </div>
                 <button type="submit" class="submitbutton">Register</button>
             </form>
-
         </div>
     </body>
 </html>
