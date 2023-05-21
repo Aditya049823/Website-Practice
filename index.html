@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project</title>
+    </head>
+    <link rel="stylesheet" href="/style.css">
+    <body>
+        <div class="main">
+            <a>Library System</a>
+            <div class="moveright">
+                <a class="bar" href="#book">Book</a>
+                <a class="bar" href="#register">Register</a>
+            </div>
+        </div>
+        <h2>Books</h2>
+        <div class="book" id="book">
+            <table border="1px">
+                <thead>
+                    <tr>
+                    <th>BookId</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Availability</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>1</td>
+                    <td>
+                        <a href="#" class="first">Book Title1</a>
+                        <table class="table1">
+                            <tr>
+                                <th>Publication</th>
+                                <td>XYZ Publications</td>
+                            </tr>
+                            <tr>
+                                <th>Page Count</th>
+                                <td>500</td>
+                            </tr>
+                            <tr>
+                                <th>ISBN</th>
+                                <td>76AEQWOI8765</td>
+                            </tr>
+                        </table>
+                        <td>JK Rowling</td>
+                        <td>Fantasy</td>
+                        <td>Available</td>
+                    </td>
+                </tr>
+                    <tr>
+                    <td>2</td>
+                    <td>
+                        <a href="#">Book Title2</a>
+                        <table class="table1">
+                            <tr>
+                                <th>Publication</th>
+                                <td>Penguin Publications</td>
+                            </tr>
+                            <tr>
+                                <th>Page Count</th>
+                                <td>238</td>
+                            </tr>
+                            <tr>
+                                <th>ISBN</th>
+                                <td>7149358MNBVYYRAL</td>
+                            </tr>
+                        </table>
+                        <td>V Chopra</td>
+                        <td>Novel</td>
+                        <td>Not Available</td>
+                    </td>
+                </tr>
+                    <tr>
+                    <td>3</td>
+                    <td>
+                        <a href="#">Book Title3</a>
+                        <table>
+                        <tr>
+                            <th>Publication</th>
+                            <td>Sri Publications</td>
+                        </tr>
+                        <tr>
+                            <th>Page Count</th>
+                            <td>417</td>
+                        </tr>
+                        <tr>
+                            <th>ISBN</th>
+                            <td>47964ERMPCXQ38</td>
+                        </tr>
+                        </table>
+                        <td>Simha</td>
+                        <td>Biography</td>
+                        <td>Available</td>
+                    </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h2>Register</h2>
+        <div class="register" id="register">
+            <form class="form1" action="#" method="post">
+                <div>
+                    <label for="fname">Fisrt Name</label><br>
+                    <input type="text" name="fname" id="fname" placeholder="Name" required>
+                </div>
+                <div>
+                    <label for="sname">Last Name</label><br>
+                    <input type="text" name="sname" id="sname" placeholder="Sname" required>
+                </div>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" required>
+                <div>
+                    <label for="dob">Date Of Birth</label><br>
+                    <input type="date" name="dob" id="dob" required>
+                </div>
+                <div>
+                    <label for="age">Age</label><br>
+                    <input type="number" min="5" max="100" name="age" id="age" required>
+                </div>
+                <div>
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div>
+                    <label for="confirm">Confirm Password</label><br>
+                    <input type="password" name="confirm" id="confirm" required>
+                </div>
+                <button type="submit" class="submitbutton">Register</button>
+            </form>
+
+        </div>
+    </body>
+</html>

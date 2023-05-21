@@ -1,0 +1,34 @@
+@font-face {
+    font-family: fonts;
+    src: url(https://fonts.google.com/specimen/Quicksand);
+}
+.main{
+    font-family: fonts;
+    position: sticky;
+    background-color:dimgrey;
+    color:white;
+    top:0;
+    font-weight: 500;
+    font-size: large;
+    padding: 20px;
+    border:10px;
+}
+.moveright{
+    font-family: fonts;
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    
+}
+table,th,td{
+    width: 500px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.submitbutton{
+    width: 400px;
+    background-color: black;
+    color: white;
+}
